@@ -1,7 +1,7 @@
 "use strict";
 
 module.exports = (app)=> {
-	console.log("webhook is running...");
+	console.log("Webhook is running...");
 	app.post('./webhook',(req, res)=> {
 		console.log("Activate webhook");
 		console.log(req.body);
