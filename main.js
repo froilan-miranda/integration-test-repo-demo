@@ -1,5 +1,5 @@
 "use strict";
-console.log("Running webapp...");
+console.log("Running Webapp...");
 
 let Express = require('express');
 let app = new Express();
